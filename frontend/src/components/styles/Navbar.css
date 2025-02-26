@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #2f855a; /* Green shade */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 2cm;
+  font-family: "Times New Roman", Times, serif; /* Set font */
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "Times New Roman", Times, serif; /* Ensure links also use Times New Roman */
+}
+
+.nav-links a:hover {
+  color: #d1d5db; /* Gray on hover */
+}

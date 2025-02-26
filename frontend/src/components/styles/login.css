@@ -1,0 +1,99 @@
+
+  /* Login Container */
+  .login-container {
+    /* background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px; */
+
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+  }
+  
+  /* Heading */
+  .login-container h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  /* Form Styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #28a745;
+  }
+  
+  /* Button Styles */
+  .login-form button {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #28a745;
+  }
+  
+  /* Message Styling */
+  .message {
+    margin-top: 12px;
+    font-size: 14px;
+    color: red;
+  }
+  
+
+  /* Login Footer */
+.login-footer {
+    margin-top: 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .login-footer p {
+    display: inline;
+    margin-right: 5px;
+    color: #333;
+  }
+  
+  .login-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .login-footer a:hover {
+    color: #0056b3;
+  }
+  

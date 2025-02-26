@@ -1,0 +1,67 @@
+.disease-container {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .upload-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 370px;
+    height: 380px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #021402;
+  }
+  
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .file-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    height: 20px;
+  }
+  
+  .predict-btn {
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 135px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .predict-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .prediction-result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  

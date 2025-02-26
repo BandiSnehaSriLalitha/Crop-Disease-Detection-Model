@@ -1,0 +1,62 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    gap: 3rem;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.text h1,
+.text h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text p,
+.text ol {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+/* New styling for the extended text below the welcome section */
+.extended-text {
+    
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+/* Alternate layout for second section */
+.section.reverse {
+    flex-direction: row-reverse;
+}
