@@ -17,8 +17,8 @@
   }
   
   .image-container img {
-    width: 370px;
-    height: 380px;
+    width: 270px;
+    height: 280px;
     border-radius: 10px;
     object-fit: cover;
     border: 2px solid #021402;

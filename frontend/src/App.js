@@ -8,11 +8,12 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Registration from "./components/Registration";
 import Login from "./components/login";
+// import Footer from "./components/Footer"; // Import Footer
 
 
 const Footer = () => (
   <footer className="footer">
-    &copy; 2025 Plant Care. All rights reserved.
+    &copy; 2025 Crop Disease Detection Model.
   </footer>
 );
 
@@ -30,7 +31,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 };

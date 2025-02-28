@@ -68,6 +68,8 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "./styles/login.css";
+
 
 const Login = () => {
   const [username, setUsername] = useState("");

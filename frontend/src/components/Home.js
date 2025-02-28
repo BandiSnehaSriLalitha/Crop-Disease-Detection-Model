@@ -35,6 +35,7 @@ const Home = () => {
 
       {/* (Matter - Image) Section */}
       <div className="section reverse">
+      
         <div className="text">
           <h2>How It Works</h2>
           <ol>
@@ -43,6 +44,9 @@ const Home = () => {
             <li><strong>Results:</strong>  Once the analysis is complete, you will receive detailed insights, including the name of the detected disease.</li>
             <li><strong>Planty AI:</strong> Need further guidance? Our Planty assistant is here to provide additional support, answering your questions and offering personalized care suggestions for your crops.</li>
           </ol>
+        </div>
+        <div className="image">
+          <img src="./home_page2.png" alt="Crop Disease Detection" />
         </div>
        
       </div>
